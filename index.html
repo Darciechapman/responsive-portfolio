@@ -6,9 +6,6 @@
     <met charset="UFT-8">
     <!-- meta tag for mobile layout -->
     <meta name="viewport" content="wifth-device-width, initial-scale-1">
-
-    <!-- link to personal css -->
-    <link rel="stylesheet" href="main.css">
     
     <!-- link to CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -51,33 +48,33 @@
 </nav>
 
 
-    <div class="container">
-        <p class="bg-light text-dark"></p>
-        <div class="row">
-            <div class="col-md-12">
-                <div class="p-4"></div>
-            </div>
+<div class="container">
+    <p class="bg-light text-dark"></p>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="p-4"></div>
+        </div>
+    </div>
+
+    <div class="row">
+
+        <div class="col-md-4">
         </div>
 
-        <div class="row">
-
-            <div class="col-md-4">
-            </div>
-
-            <div class="col-md-4">
-            <div class="card" style="width:400px">
-            <img class="card-img-top" src="https://hips.hearstapps.com/esq.h-cdn.co/assets/cm/15/06/54d1ad633ffe9_-_esq-cartoons-stoop-kid.jpg"
+        <div class="col-md-4">
+          <div class="card" style="width:400px">
+          <img class="card-img-top" src="https://hips.hearstapps.com/esq.h-cdn.co/assets/cm/15/06/54d1ad633ffe9_-_esq-cartoons-stoop-kid.jpg"
             alt="Card image">
             <div class="card-body">
               <h4 class="card-title">Darcie Chapman</h4>
               <p class="card-text">Some example text.</p>
               <a href="#" class="btn btn-primary">Portfolio</a>
             </div>
-            </div>
-            </div>
+          </div>
+        </div>
 
-            <div class="col-md-4">
-            </div>
+        <div class="col-md-4">
+        </div>
 
         </div>
 
@@ -96,8 +93,24 @@
             </div>
 
             <div class="col-md-4">
-
-            </div>
+              <form action="/action_page.php">
+                <div class="form-group">
+                  <label for="email">Name</label>
+                  <input type="email" class="form-control" placeholder="Your name" id="name">
+                </div>
+                <div class="form-group">
+                  <label for="email">Email address:</label>
+                  <input type="email" class="form-control" placeholder="Your email" id="email">
+                </div>
+                <div class="form-group">
+                  <label for="comment">Message:</label>
+                  <textarea class="form-control" rows="5" id="message"></textarea>
+                </div>
+                <br>
+                </label>
+              </div>
+              <button type="submit" class="btn btn-success">Send</button>
+            </form>
 
             <div class="col-md-4">
 

@@ -25,27 +25,25 @@
 
 <body>
 
-<nav class="navbar navbar-expand-md bg-dark navbar-dark">
-  <!-- Brand -->
-  <a class="navbar-brand" href="https://darciechapman.github.io/responsive-portfolio/" onclick="ga('send', 'event', 'Navbar', 'Community links', 'about');">Darcie Chapman</a>
-
-  <!-- Toggler/collapsibe Button -->
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <!-- Navbar links -->
-  <div class="collapse navbar-collapse" id="collapsibleNavbar">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="https://darciechapman.github.io/responsive-portfolio/portfolio" onclick="ga('send', 'event', 'Navbar', 'Community links', 'portfolio');">Portfolio</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="https://darciechapman.github.io/responsive-portfolio/contact" onclick="ga('send', 'event', 'Navbar', 'Community links', 'contact');">Contact</a>
-      </li>
-    </ul>
-  </div>
-</nav>
+    <nav class="navbar navbar-expand-md bg-info navbar-dark flex-column flex-md-row bd-navbar">
+    <!-- Brand -->
+    <a class="navbar-brand mr-0 mr-md-2" href="https://darciechapman.github.io/responsive-portfolio/" onclick="ga('send', 'event', 'Navbar', 'Community links', 'about');">Darcie Chapman</a>
+  
+    <!-- Navbar links -->
+    <div class="navbar-nav-scroll">
+      <ul class="navbar-nav bd-navbar-nav flex-row">
+        <li class="nav item">
+          <li class="nav-link active" href="https://darciechapman.github.io/responsive-portfolio/" onclick="ga('send', 'event', 'Navbar', 'Community links', 'about');">About Me </a>
+            </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="https://darciechapman.github.io/responsive-portfolio/portfolio" onclick="ga('send', 'event', 'Navbar', 'Community links', 'portfolio');">Portfolio </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="https://darciechapman.github.io/responsive-portfolio/contact" onclick="ga('send', 'event', 'Navbar', 'Community links', 'contact');">Contact </a>
+        </li>
+      </ul>
+    </div>
+    </nav>
 
 <div class="container">
     <div class="row">
@@ -60,6 +58,11 @@
         </div>
 
         <div class="col-md-4">
+            <div class="container pt-4 my-3 border rounded">
+                <div class="heading">
+                    <h1>Contact</h1>
+                </div>
+                <div class="p-2"></div>
           <form action="/action_page.php">
             <div class="form-group">
               <label for="email">Name</label>
@@ -76,7 +79,9 @@
             </label>
           <button type="submit" class="btn btn-success">Send</button>
         </form>
+        <div class="p-2"></div>
         </div>
+    </div>
 
         <div class="col-md-4">
 

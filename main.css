@@ -3,14 +3,75 @@
 }
 
 .background {
-  font-size: 18px;
   line-height: 30px;
-  background-color: grey
+  background-image: url("images/pink-bg.jpg");
+  background-size: 100%;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.navbar {
+  background-color: rgba(255, 255, 255, 0.411);
+}
+
+.navbar-brand {
+  color: black;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.nav-link {
+  float: right;
+  color:black;
+}
+
+
+.block {
+  border-radius: 15px;
+  display: block;
+  width: 100%;
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.521);
+}
+
+.heading {
+  color: black;
+  font-weight: bold;
+  text-align: right;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+#img {
+  border-radius: 15px;
+}
+
+.p {
+  padding: 30px, 20px;
+}
+
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: block;
+  background-color: rgba(255, 255, 255, 0.411);
+  text-align: right;
+  color: black;
+  
 }
 
 @media screen and (max-width: 768px) {
-   /* The body's bg color will be #333 */
-  body {
-    background-color: #333;
+   
+  .background {
+    background-image: url("images/pink-mobile-bg.jpg");
+    background-attachment: scroll;
+    background-size: cover;
+  }
+
+  .navbar {
+    background-color: rgba(255, 255, 255, 0.411);
+    color: black;
   }
 }

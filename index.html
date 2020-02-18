@@ -9,6 +9,9 @@
 
     <!-- link to main.css -->
     <link rel="stylesheet" type="text/css" href="main.css">
+
+      <!-- font link -->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
     
     <!-- link to CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -28,16 +31,13 @@
 
 <body class="background">
 
-<nav class="navbar navbar-expand-md bg-light navbar-light flex-column flex-md-row bd-navbar">
+<nav class="navbar navbar-expand-md flex-column flex-md-row bd-navbar">
   <!-- Brand -->
   <a class="navbar-brand mr-0 mr-md-2" href="https://darciechapman.github.io/responsive-portfolio/" onclick="ga('send', 'event', 'Navbar', 'Community links', 'about');">Darcie Chapman</a>
 
   <!-- Navbar links -->
   <div class="navbar-nav-scroll">
     <ul class="navbar-nav bd-navbar-nav flex-row">
-      <li class="nav item">
-        <li class="nav-link active" href="https://darciechapman.github.io/responsive-portfolio/" onclick="ga('send', 'event', 'Navbar', 'Community links', 'about');">About Me</a>
-      </li>
       <li class="nav-item">
         <a class="nav-link active" href="https://darciechapman.github.io/responsive-portfolio/portfolio" onclick="ga('send', 'event', 'Navbar', 'Community links', 'portfolio');">Portfolio</a>
       </li>
@@ -50,7 +50,6 @@
 
 
 <div class="container">
-    <p class="bg-light text-dark"></p>
     <div class="row">
         <div class="col-md-12">
             <div class="p-4"></div>
@@ -63,18 +62,25 @@
         </div>
 
         <div class="col-md-6">
-          <div class="container pt-3 my-3 border rounder">
-          <div class="card" style="width:100%">
-          <img class="card-img-top" src="https://hips.hearstapps.com/esq.h-cdn.co/assets/cm/15/06/54d1ad633ffe9_-_esq-cartoons-stoop-kid.jpg"
-            alt="Card image">
-            <div class="card-body">
-              <h4 class="card-title">Darcie Chapman</h4>
-              <p class="card-text">Some example text.</p>
-              <a href="#" class="btn btn-light">Portfolio</a>
+          <div class="container">
+            <div class="block">
+            <div class="row">
+              <img src="https://hips.hearstapps.com/esq.h-cdn.co/assets/cm/15/06/54d1ad633ffe9_-_esq-cartoons-stoop-kid.jpg"
+               alt="Me" width = 40% id="img">
+               <div class="heading">
+               <h5>Darcie Chapman</h5>
+               </div>
             </div>
-          </div>
-        </div>
-      </div>
+            <div class="p-3"></div>
+
+            <div class="row">
+                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                  </p>
+                </div>
+            </div>
+            </div>
+           </div>
+      
 
         <div class="col-md-3">
         </div>
@@ -83,7 +89,16 @@
 
     </div>
 
-  <footer class="page-footer font-small blue">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+      </div>
+    </div>
+  </div>
+
+  <footer>
+
+    <p>Website made by Darcie Chapman</p>
 
   </footer>
 

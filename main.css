@@ -38,8 +38,8 @@
   color: black;
   font-weight: bold;
   text-align: right;
-  padding-top: 10px;
-  padding-left: 20px;
+  padding-top: 20px;
+  padding-left: 10px;
 }
 
 #img {
@@ -58,11 +58,15 @@
   background-color: rgba(255, 255, 255, 0.521);
 }
 
+.card-body {
+  background-color:rgba(255, 255, 255, 0.521);
+}
+
 .card {
   border-radius: 15px;
   display: block;
   padding: 10px;
-  background-color: rgba(255, 255, 255, 0.699);
+  border-color: rgba(255, 255, 255, 0.699);
 }
 
 .card-img-top {
@@ -103,4 +107,10 @@ footer {
     background-color: rgba(255, 255, 255, 0.411);
     color: black;
   }
+
+  .heading {
+    text-align: center;
+    padding: 10;
+  }
+
 }

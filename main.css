@@ -47,17 +47,16 @@
   display: block;
   width: 100%;
   padding: 40px;
-  background-color: rgba(46, 47, 87, 0.479);
-  color: white;
-  border-color: white;
-  border-width: 10px;
+  background-color: rgba(255, 255, 255, 0.507);
+  color: black;
+  border-color: rgba(255, 255, 255, 0.788);
+  border-style: solid;
 }
 
 
 .heading {
-  color: white;
+  color: rgb(46, 47, 82);
   font-weight: bold;
-  text-align: right;
   font-size: 20px;
   padding-top: 20px;
   padding-left: 10px;
@@ -72,6 +71,8 @@
 }
 
 .blockcontact {
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.788);
   border-radius: 15px;
   display: block;
   width: 100%;

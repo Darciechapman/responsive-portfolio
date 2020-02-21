@@ -15,12 +15,6 @@
   background-color: rgba(1, 95, 112, 0.849);
 }
 
-.nav-img {
-  width: 30px;
-  height: 30px;
-  border-radius: 30px;
-}
-
 .navbar-brand {
   color: white;
   font-weight: bold;
@@ -157,7 +151,4 @@
     visibility: hidden;
   }
 
-  #nav-img {
-    display: none;
-  }
   }

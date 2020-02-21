@@ -3,6 +3,7 @@
 }
 
 .background {
+  background-color:  rgb(1, 95, 112);
   background-image: url("images/bg-blue.jfif");
   font-family: 'Gothic A1', sans-serif;
   background-attachment: scroll;

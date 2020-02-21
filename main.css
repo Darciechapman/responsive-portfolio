@@ -3,16 +3,16 @@
 }
 
 .background {
-  background-image: url("images/pink-bg.jpg");
+  background-image: url("images/bg-blue.jfif");
   font-family: 'Gothic A1', sans-serif;
   background-attachment: scroll;
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-size: auto;
+  background-position: top left; 
 }
 
 .navbar {
-  background-color: rgba(46, 47, 87, 0.411);
+  background-color: rgba(1, 95, 112, 0.849);
 }
 
 .nav-img {
@@ -134,13 +134,13 @@
 @media screen and (max-width: 768px) {
    
   .background {
-    background-image: url("images/pink-mobile-bg.jpg");
+    background-image: url("images/bg-blue-mobile.jfif");
     background-attachment: scroll;
     background-size: cover;
   }
 
   .navbar {
-    background-color: rgba(46, 47, 87, 0.411);
+    background-color: rgba(1, 95, 112, 0.849);
     color: black;
   }
 
@@ -151,6 +151,10 @@
   .heading {
     text-align: center;
     padding: 10;
+  }
+
+  .footer {
+    visibility: hidden;
   }
 
   #nav-img {

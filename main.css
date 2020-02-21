@@ -41,6 +41,11 @@
   color:rgb(46, 47, 82);
 }
 
+.nav-item-icon {
+  float: right;
+  margin-right: 20px;
+}
+
 
 .block {
   border-radius: 15px;

@@ -41,11 +41,6 @@
   color:rgb(46, 47, 82);
 }
 
-.nav-item-icon {
-  float: right;
-  margin-right: 20px;
-}
-
 
 .block {
   border-radius: 15px;
@@ -123,7 +118,7 @@
 
 
 
-footer {
+.footer {
   position: fixed;
   left: 0;
   bottom: 0;
@@ -158,4 +153,7 @@ footer {
     padding: 10;
   }
 
-}
+  #nav-img {
+    display: none;
+  }
+  }

@@ -93,6 +93,9 @@
   background-color: white;
 }
 
+.btn {
+  float: right;
+}
 
 .card {
   border-radius: 15px;

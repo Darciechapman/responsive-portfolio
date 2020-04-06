@@ -75,15 +75,15 @@
   display: block;
   width: 100%;
   padding: 40px;
-  background-color: rgba(255, 255, 255, 0.507);
+  background-color: rgba(221, 221, 221, 0.705);
   color: black;
   border-color: rgba(255, 255, 255, 0.788);
   border-style: solid;
 }
 
 .heading {
-  color: rgb(46, 47, 82);
-  font-weight: bold;
+  color: rgb(32, 32, 43);
+  font-weight: bolder;
   font-size: 20px;
   padding-top: 20px;
   padding-left: 10px;
@@ -95,21 +95,19 @@
   border-radius: 15px;
   float: left;
   margin-left: 10px;
+  padding-right: 20px;
 }
 
 .p {
   padding: 30px, 20px;
-}
-
-.project-links {
-  align-items: center;
+  float: left;
 }
 
 .pro-icon {
-  border-radius: 20px;
-  padding: 10px;
-  font-size: 17px;
-  margin-left: 10px;
+  border-radius: 23px;
+  padding: 13px;
+  font-size: 20px;
+  margin-left: 15px;
 }
 
 .icon-color {

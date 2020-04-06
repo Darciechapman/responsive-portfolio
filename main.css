@@ -101,11 +101,19 @@
   padding: 30px, 20px;
 }
 
+.project-links {
+  align-items: center;
+}
+
 .pro-icon {
-  border-radius: 30px;
+  border-radius: 20px;
   padding: 10px;
-  font-size: 30px;
+  font-size: 17px;
   margin-left: 10px;
+}
+
+.icon-color {
+  color: black;
 }
 
 .blockcontact {
@@ -157,6 +165,11 @@
 .link-text:hover {
   color: rgb(61, 65, 68);
   text-decoration: none;
+}
+
+.text {
+  text-align: center;
+  padding: 5px;
 }
 
 .card-img-top {

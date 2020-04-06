@@ -20,9 +20,16 @@
 .orange {
   background-color: rgb(208, 100, 35)
 }
+.white {
+  background-color: aliceblue;
+}
 
 .hidden {
   visibility: hidden;
+}
+
+.none {
+  display: none;
 }
 
 .background {
@@ -139,6 +146,17 @@
   border-radius: 15px;
   display: block;
   padding: 10px;
+  color: white;
+}
+
+.link-text {
+  color: black;
+  font-weight: bold;
+}
+
+.link-text:hover {
+  color: rgb(61, 65, 68);
+  text-decoration: none;
 }
 
 .card-img-top {
@@ -147,7 +165,7 @@
   width: 150px;
   }
   
-.card-img-top:hover {
+.card-body:hover {
     border-color: black; 
   }
 

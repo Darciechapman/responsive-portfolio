@@ -31,10 +31,9 @@
 .none {
   display: none;
 }
-
+/*background-image: url("https://i.pinimg.com/originals/2a/c5/8c/2ac58ca3c5e1d553148f12ba1d7a38e8.jpg");*/
 .background {
-  background-color:  rgb(0, 0, 0);
-  background-image: url("https://i.pinimg.com/originals/2a/c5/8c/2ac58ca3c5e1d553148f12ba1d7a38e8.jpg");
+  background-color: #14080E;
   font-family: 'Montserrat', sans-serif;
   background-attachment: scroll;
   background-repeat: no-repeat;
